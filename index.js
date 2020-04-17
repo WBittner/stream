@@ -20,6 +20,7 @@ nms.run();
 const express = require('express')
 const app = express()
 const port = 3000
+const HOSTED_URL = 'localhost';
 
 app.get('/:stream', (req, res) => res.send(`<html>
 <body>
@@ -33,7 +34,7 @@ app.get('/:stream', (req, res) => res.send(`<html>
                 var videoElement = document.getElementById('videoElement');
                 var flvPlayer = flvjs.createPlayer({
                     type: "flv",
-                    url: "http://localhost:3333/live/${req.params.stream}.flv",
+                    url: "http://${HOSTED_URL}:3333/live/${req.params.stream}.flv",
                     isLive: true
                 });
                 flvPlayer.attachMediaElement(videoElement);
