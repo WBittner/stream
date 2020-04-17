@@ -1,0 +1,23 @@
+{
+  "name": "stream-obs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WBittner/stream.git"
+  },
+  "author": "",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/WBittner/stream/issues"
+  },
+  "homepage": "https://github.com/WBittner/stream#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-media-server": "^2.1.6"
+  }
+}
