@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/WBittner/stream#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "node-media-server": "^2.1.6"
   }
 }
